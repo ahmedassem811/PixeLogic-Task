@@ -1,0 +1,456 @@
+{
+	"info": {
+		"_postman_id": "7f30787b-013a-4b0b-9898-6058df6c6ff6",
+		"name": "Sign-Up API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://www.phptravels.net/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					}
+				],
+				"url": {
+					"raw": "https://www.phptravels.net/",
+					"protocol": "https",
+					"host": [
+						"www",
+						"phptravels",
+						"net"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://settings.luckyorange.net/?u=https%3A%2F%2Fwww.phptravels.net%2F&s=193429",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "https://settings.luckyorange.net/?u=https%3A%2F%2Fwww.phptravels.net%2F&s=193429",
+					"protocol": "https",
+					"host": [
+						"settings",
+						"luckyorange",
+						"net"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "u",
+							"value": "https%3A%2F%2Fwww.phptravels.net%2F"
+						},
+						{
+							"key": "s",
+							"value": "193429"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.phptravels.net/register",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					}
+				],
+				"url": {
+					"raw": "https://www.phptravels.net/register",
+					"protocol": "https",
+					"host": [
+						"www",
+						"phptravels",
+						"net"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://settings.luckyorange.net/?u=https%3A%2F%2Fwww.phptravels.net%2Fregister&s=193429",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "https://settings.luckyorange.net/?u=https%3A%2F%2Fwww.phptravels.net%2Fregister&s=193429",
+					"protocol": "https",
+					"host": [
+						"settings",
+						"luckyorange",
+						"net"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "u",
+							"value": "https%3A%2F%2Fwww.phptravels.net%2Fregister"
+						},
+						{
+							"key": "s",
+							"value": "193429"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.phptravels.net/account/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "*/*"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded; charset=UTF-8"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "confirmpassword",
+							"value": "12345678"
+						},
+						{
+							"key": "email",
+							"value": "Test6060@mail.com"
+						},
+						{
+							"key": "firstname",
+							"value": "Test"
+						},
+						{
+							"key": "lastname",
+							"value": "User"
+						},
+						{
+							"key": "password",
+							"value": "12345678"
+						},
+						{
+							"key": "phone",
+							"value": "01234567899"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.phptravels.net/account/signup",
+					"protocol": "https",
+					"host": [
+						"www",
+						"phptravels",
+						"net"
+					],
+					"path": [
+						"account",
+						"signup"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://www.phptravels.net/account/signup",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "*/*"
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded; charset=UTF-8"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "confirmpassword",
+									"value": "12345678"
+								},
+								{
+									"key": "email",
+									"value": "Test6060@mail.com"
+								},
+								{
+									"key": "firstname",
+									"value": "Test"
+								},
+								{
+									"key": "lastname",
+									"value": "User"
+								},
+								{
+									"key": "password",
+									"value": "12345678"
+								},
+								{
+									"key": "phone",
+									"value": "01234567899"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://www.phptravels.net/account/signup",
+							"protocol": "https",
+							"host": [
+								"www",
+								"phptravels",
+								"net"
+							],
+							"path": [
+								"account",
+								"signup"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 04 Oct 2020 23:07:54 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.10"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "ci_session=25eac76e167e8099d7f1404c0cec634f394f341a; path=/; HttpOnly; secure"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding,User-Agent"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=63072000; includeSubDomains"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-Turbo-Charged-By",
+							"value": "LiteSpeed"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "cf-request-id",
+							"value": "05977834ef0000081049832200000001"
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?lkg-colo=19&lkg-time=1601852875\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "5dd28fce48cd0810-CDG"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						}
+					],
+					"cookie": [],
+					"body": "true"
+				}
+			]
+		},
+		{
+			"name": "https://www.phptravels.net/account/",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": "1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					}
+				],
+				"url": {
+					"raw": "https://www.phptravels.net/account/",
+					"protocol": "https",
+					"host": [
+						"www",
+						"phptravels",
+						"net"
+					],
+					"path": [
+						"account",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://settings.luckyorange.net/?u=https%3A%2F%2Fwww.phptravels.net%2Faccount%2F&s=193429",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
+					},
+					{
+						"key": "Accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "https://settings.luckyorange.net/?u=https%3A%2F%2Fwww.phptravels.net%2Faccount%2F&s=193429",
+					"protocol": "https",
+					"host": [
+						"settings",
+						"luckyorange",
+						"net"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "u",
+							"value": "https%3A%2F%2Fwww.phptravels.net%2Faccount%2F"
+						},
+						{
+							"key": "s",
+							"value": "193429"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
