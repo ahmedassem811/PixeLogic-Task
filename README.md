@@ -26,7 +26,7 @@ $ npm test run
 cypress will open and click on file you want to run.
 
 ## Links
-[GitHub Link] (www.google.com)
+[GitHub Link] (https://github.com/ahmedassme/PixeLogic-Task)
 
 
 
